@@ -12,21 +12,21 @@ snare.on('fist', function(edge){
 
 snare.on('imu', function(data){
 
-	if( (Math.abs(data.accelerometer.y)>1.3) && Math.abs(data.accelerometer.y)<1.9 ){
+	if( (Math.abs(data.accelerometer.y)> 1.9) && Math.abs(data.accelerometer.y)<5.1 ){
 
 		pubsub.publish('hitDrum', 's');
 
-	} else if(Math.abs(data.accelerometer.y)>2) {
+	// } else if(Math.abs(data.accelerometer.y)>2) {
 
-		pubsub.publish('hitDrum', 's');
-	}
-	  
+	// 	pubsub.publish('hitDrum', 's');
+	// }
+	  }
 });
 
 
 kick.on('imu', function(data){
 
- 	if(data.accelerometer.y > 0.5){
+ 	if(data.accelerometer.y > 1.2){
 
     	pubsub.publish('hitDrum', 'k')
         
