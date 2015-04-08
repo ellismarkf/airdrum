@@ -1,12 +1,3 @@
-// var drumSounds = {
-//   s:  new Audio('sounds/snare.wav'),
-//   k:  new Audio('sounds/kick.wav'),
-//   c:  new Audio('sounds/crash.wav'),
-//   hh: new Audio('sounds/highhat.wav')
-// };
-
-// var ssnare, shighhat, scrash;
-
 var drumSounds;
 
 soundManager.setup({
