@@ -2,6 +2,7 @@ var snare = Myo.create();
 var kick = Myo.create(1);
 
 
+
 snare.on('fist', function(edge){
     //Edge is true if it's the start of the pose, false if it's the end of the pose
     if(edge){

@@ -31,6 +31,26 @@ for (var drum in drums) {
 	});
 };
 
+//Optional Keyboard Controls
+document.addEventListener('keypress', function(event) {
+    if (event.keyCode == 115) {
+       pubsub.publish('hitDrum', 's')
+    }
+
+   	if (event.keyCode == 98) {
+       pubsub.publish('hitDrum', 'k')
+    }
+
+    if (event.keyCode == 104) {
+        pubsub.publish('hitDrum', 'hh')
+    }
+
+    if (event.keyCode == 99) {
+        pubsub.publish('hitDrum', 'c')
+    }
+
+}, true);
+
 var drumControls = document.getElementById('drum-controls');
 
 
