@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AirDrum</title>
+	<link rel="stylesheet" type="text/css" href="airdrum.css">
+</head>
+<body>
+	<h1>AirDrum</h1>
+	<div id='drum-controls'>
+		<button class='drum-head' id='hh'>Highhat</button>
+		<button class='drum-head' id='s'>Snare</button>
+		<button class='drum-head' id='c'>Crash</button>
+		<br/>
+		<button class='drum-head' id='k'>Kick</button>
+	</div>
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js'></script>
+	<script src="http://js.leapmotion.com/leap-0.6.3.js"></script>
+	<script type="text/javascript" src="../build/airDrum.min.js"></script>
+	<script type="text/javascript">
+		$(window).resize();
+	</script>
+</body>
+</html>
