@@ -1,5 +1,5 @@
 # airdrum
-A virtual drum kit which uses two Myo Armbands and a Leap Motion Sensor to turn air drumming into actual drumming.
+A virtual drum kit which uses two Myo Armbands and a Leap Motion Sensor to turn air drumming into actual drumming. [Get your rock on](http://wowmarkandray.com/airdrum)
 
 ### installing & building
 Fork the repo, clone it, and then run npm install in the drumkit directory. Make your changes, save, then run grunt in your terminal.  To test locally, open the index.html file in the airdrum directory.
