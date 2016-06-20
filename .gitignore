@@ -1,7 +1,7 @@
-node_modules/**
+node_modules/
 airdrum/
-*.DS_Store
-*.scssc
+.DS_Store
+.scssc
 bower_components/
 test/keypress.js
 test/tests.js
